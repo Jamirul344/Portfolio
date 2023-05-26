@@ -152,7 +152,7 @@ nav ul li a:hover::after {
 }
 
 .tab-links.active-link::after {
-    width: 50%;
+    width: 100%;
 }
 
 .tab-contents ul li {
@@ -393,6 +393,11 @@ nav .fa-solid{
     .header-text h1{
         font-size: 30px;
     }
+    
+    .header-text h1 span {
+        text-shadow: 2px 3px #fff;
+    }
+    
     nav .fa-solid{
         display: block;
         font-size: 25px;

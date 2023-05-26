@@ -216,8 +216,11 @@ nav ul li a:hover::after {
     background: #ff004f;
     transform: translateY(-10px);
 }
-
-/* postfolio */
+.about-col-2 p{
+    padding:20px;
+    margin-left:-20px;
+}
+/* portfolio */
 
 .work-list {
     display: grid;

@@ -116,6 +116,10 @@ nav ul li a:hover::after {
 .about-col-2 {
     flex-basis: 60%;
 }
+.about-col-2 .about{
+    padding:20px;
+    margin-left:-20px;
+}
 
 .sub-title {
     font-size: 60px;
@@ -216,10 +220,7 @@ nav ul li a:hover::after {
     background: #ff004f;
     transform: translateY(-10px);
 }
-.about-col-2 p{
-    padding:20px;
-    margin-left:-20px;
-}
+
 /* portfolio */
 
 .work-list {

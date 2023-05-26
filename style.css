@@ -407,7 +407,7 @@ nav .fa-solid{
         font-size: 30px;
     }
     
-    .header-text h1 span {
+    .header-text .name {
         text-shadow: 2px 3px #fff;
     }
     

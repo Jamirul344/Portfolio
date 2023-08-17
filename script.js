@@ -47,3 +47,22 @@ form.addEventListener('submit', e => {
         })
         .catch(error => console.error('Error!', error.message))
 })
+
+
+
+
+        var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Jamirul Islam')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Front-End Developer')
+    .pauseFor(2500)
+    .deleteAll()
+    // .typeString('<strong>FrontEnd Developer</strong>')
+    .pauseFor(2500)
+    .start();
